@@ -13,7 +13,6 @@ Dataclient.switch_database('ProbaPractica')
 time = 0
 date = 0
 
-
 #Checking if we have connected to the Mqtt server and subscribing to our topic
 def on_connect(client, userdata, flags, rc):
     print("Connected with result code "+str(rc))
